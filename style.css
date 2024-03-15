@@ -929,7 +929,7 @@ p {
     }
     
     .arrival {
-        padding-left: 40px;
+        padding-left: 60px;
         margin: 10px 0px 10px 0px;
     }
 
@@ -949,6 +949,7 @@ p {
         justify-content: center;
         align-items: center;
     }
+    
 
     .boximg img {
         width: 350px;
@@ -962,7 +963,7 @@ p {
         background-color: #F9DF56;
         /* background-color: red; */
         gap: 50px;
-        height: 900px;
+        height: 800px;
         display: flex;
         padding: 100px 0px 0px 16px;
         flex-direction: column;
@@ -972,7 +973,7 @@ p {
 
 
     .arrivals {
-        padding-left: 40px;
+        padding-left: 60px;
         margin: 20px 0px 5px 0px;
     }
 
@@ -1215,5 +1216,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+.heroimag img{
+    width: 350px;
+    justify-self: end;
+    display: flex;
+    
+}
+.topp img {
+    width: 30px;
+    top: 220px;
+    position: absolute;
+    right: 30px;
+}
+.toprr img {
+    width: 27px;
+    top: 20px;
+    position: absolute;
+    left: 250px;
+}
+
+.bottomm img {
+    width: 30px;
+    top: 39px;
+    position: absolute;
+    left: 105px;
+}
+.bottomrr img {
+    position: absolute;
+    width: 35px;
+    top: 220px;
+    right: 270px;
+    
+}
+
 }
 
