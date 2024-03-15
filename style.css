@@ -477,6 +477,7 @@ section{
     margin: 0px 0px 55px 0px;
     z-index: 0;
 }
+
 /* 2 in 1 */
 
 .htt{
@@ -485,7 +486,7 @@ section{
 
 .hpp{
     background-color: #F9DF56;
-    background-color: ;
+   
     width: auto;
     overflow: hidden;
     height: 650px;
@@ -809,6 +810,7 @@ p {
         border: 0;
         box-sizing: border-box;
     }
+    
     .nav{
         display: none;
     }
@@ -824,13 +826,13 @@ p {
         background-color: #F4F6F5;
         /* background-color: red; */
         padding: 0px 0px 0px 0px;
-        height: 750px;
+        height: 800px;
         border-radius: 20px;
-        gap: 50px;
+        gap: 80px;
         
     }
     .heroimage img {
-        width: 360px;
+        width: 300px;
         justify-self: end;
         display: flex;
     }
@@ -842,23 +844,32 @@ p {
         padding: 0px 10px;
     }
     .white1 {
-        width: 360px;
+        width: 300px;
         padding-top: 10px;
         
     }
-
-    .white {
+    #gg{
         width: 320px;
+    }
+    .herotext span {
+        font-size: 55px;
+    }
+    .herotextt h1{
+        font-size: 60px;
+    }
+    .white {
+        width: 270px;
         padding-top: 10px;
     }
     .herotext h1 {
-        line-height: 90px;
+        line-height: 70px;
         font-size: 65px;
         
     }
     .herotext h5 {
         padding-top: 0px;
         margin-bottom: 10px;
+        font-size: 18px;
         
     }
     .herobtn {
@@ -896,7 +907,7 @@ p {
         flex-direction: column;
         background-color: #EBD96B;
         padding: 15px 100px;
-        gap: 10px;
+        gap: px;
         width: auto;
         align-items: center;
         justify-content: center;
@@ -906,16 +917,16 @@ p {
     }
     .mlogoimg {
         display: flex;
-        gap: 25px;
+        gap: 30px;
         
     }
     .mlogoimg img {
-        width: 110px;
-        height: 37px;
+        width: 80px;
+        height: 30px;
     }
     
     .arrival {
-        padding-left: 20px;
+        padding-left: 40px;
         margin: 10px 0px 10px 0px;
     }
 
@@ -925,7 +936,7 @@ p {
 
     .arrival img {
         top: 20px;
-        left: 120px;
+        left: 150px;
         width: 20%;
     }
     .all {
@@ -937,7 +948,7 @@ p {
     }
 
     .boximg img {
-        width: 400px;
+        width: 350px;
         margin-bottom: 10px;
     }
     
@@ -950,14 +961,14 @@ p {
         gap: 50px;
         height: 900px;
         display: flex;
-        padding: 100px 0px 0px 12px;
+        padding: 100px 0px 0px 16px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     .heroimag img {
-        width: 430px;
+        width: 380px;
     }
     .bottom img {
         width: 30px;
@@ -981,7 +992,7 @@ p {
     }
 
     .arrivals {
-        padding-left: 20px;
+        padding-left: 40px;
         margin: 20px 0px 5px 0px;
     }
 
@@ -994,11 +1005,11 @@ p {
 .arrivals img {
     position: absolute;
     top: 15px;
-    left: 160px;
+    left: 200px;
     width: 22%;
 }
 #bb img {
-    width: 400px;
+    width: 350px;
     margin-bottom: 10px;
 }   
 
@@ -1012,12 +1023,12 @@ p {
 }
     
 .tptext {
-    gap: 0px;
+    gap: 20px;
     width: auto;
     overflow: hidden;
 }
 .tptext h1 {
-    font-size: 40px;
+    font-size: 30px;
     width: auto;
     line-height: 40px;
     font-weight: 900;
@@ -1038,36 +1049,36 @@ p {
 
 }
 .dwn img {
-    width: 40%;
+    width: 25%;
 }
 
 .tppicture img {
-    width: 300px;
+    width: 250px;
 }
 
 .c1 img {
     /* visibility: hidden; */
-    width: 380px;
+    width: 300px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 22%);
+    transform: translate(-50%, 12%);
 }
 
 .c2 img {
     /* visibility: hidden; */
-    width: 330px;
+    width: 250px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 35%);
+    transform: translate(-50%, 25%);
     position: relative;
 }
 
 .c3 img {
     /* visibility: hidden; */
-    width: 280px;
+    width: 220px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 55%);
+    transform: translate(-50%, 35%);
     position: relative;
 }
 .c4 {
@@ -1077,7 +1088,7 @@ p {
 }
 
 .c4 img {
-    width: 35px;
+    width: 25px;
     position: relative;
 }
 
@@ -1089,28 +1100,28 @@ p {
 }
 .c5 img {
     position: relative;
-    width: 35px;
+    width: 21px;
 }
 
 .c7 img {
     position: relative;
-    width: 35px;
+    width: 25px;
 }
 
 .c7 {
     position: absolute;
-    top: 400px;
+    top: 380px;
     right: -20px;
 }
 
 .c6 {
     position: absolute;
-    top: 420px;
-    left: -25px;
+    top: 370px;
+    left: -5px;
 }
 
 .c6 img {
-    width: 30px;
+    width: 26px;
     position: relative;
 }
 
@@ -1119,20 +1130,28 @@ p {
 }
 
 .beginfoot h1 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 900;
-    width: 400px;
+    width: 300px;
     /* background-color: red; */
 }
 
 .beginfoot h4 {
-    font-size: 17px;
+    font-size: 11px;
     font-weight: 400;
     width: 350px;
+    gap: 2px;
 }
 
 .email-box {
     text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border-radius: 10px;
 }
 
 .email-send {
@@ -1188,14 +1207,11 @@ p {
     border-top: 0.1px solid #E5C643;
 }
 
-
-
 .cpoy a{
     text-decoration: none;
     color: #E5C643;
 
 }
-
 .allf1 {
     display: flex;
     flex-direction: column;
