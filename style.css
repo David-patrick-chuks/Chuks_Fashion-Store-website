@@ -824,8 +824,8 @@ p {
     }
 
     .hero {
-        /* background-color: #F4F6F5; */
-        background-color: red;
+        background-color: #F4F6F5;
+        /* background-color: red; */
         padding: 0px 0px 0px 0px;
         height: 790px;
         border-radius: 20px;
