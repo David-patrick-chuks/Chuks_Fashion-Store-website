@@ -1223,26 +1223,26 @@ p {
     display: flex;
     
 }
-.topp img {
+#topp img {
     width: 30px;
     top: 220px;
     position: absolute;
     right: 30px;
 }
-.toprr img {
+#toprr img {
     width: 27px;
     top: 20px;
     position: absolute;
     left: 250px;
 }
 
-.bottomm img {
+#bottomm img {
     width: 30px;
     top: 39px;
     position: absolute;
     left: 105px;
 }
-.bottomrr img {
+#bottomrr img {
     position: absolute;
     width: 35px;
     top: 220px;
