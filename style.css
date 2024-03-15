@@ -930,7 +930,7 @@ p {
     }
     
     .arrival {
-        padding-left: 70px;
+        padding-left: 60px;
         margin: 10px 0px 10px 0px;
     }
 
@@ -940,7 +940,7 @@ p {
 
     .arrival img {
         top: 20px;
-        left: 150px;
+        left: 170px;
         width: 20%;
     }
     .all {
@@ -974,7 +974,7 @@ p {
 
 
     .arrivals {
-        padding-left: 70px;
+        padding-left: 60px;
         margin: 20px 0px 5px 0px;
     }
 
@@ -987,7 +987,7 @@ p {
 .arrivals img {
     position: absolute;
     top: 15px;
-    left: 200px;
+    left: 220px;
     width: 22%;
 }
 #bb img {
