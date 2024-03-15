@@ -817,16 +817,17 @@ p {
     .hero{
         display: flex;
         flex-direction: column;
+        
     }
     .head {
         padding: 50px 10px 10px 10px;
     }
 
     .hero {
-        background-color: #F4F6F5;
-        /* background-color: red; */
+        /* background-color: #F4F6F5; */
+        background-color: red;
         padding: 0px 0px 0px 0px;
-        height: 800px;
+        height: 790px;
         border-radius: 20px;
         gap: 80px;
         
@@ -835,6 +836,7 @@ p {
         width: 300px;
         justify-self: end;
         display: flex;
+        z-index: 1;
     }
 
     .herotext {
@@ -878,24 +880,25 @@ p {
     }
     .topr img {
         width: 30px;
-        top: 30px;
-        right: 60px;
+        top: 220px;
+        right: -0px;
     }
     .top img {
         width: 27px;
         top: 20px;
-        right: 340px;
+        left: -20px;
     }
 
     .bottom img {
         width: 30px;
-        top: 275px;
-        left: 15px;
+        top: 5px;
+        left: 5px;
     }
     .bottomr img {
         width: 35px;
-        top: 250px;
-        right: 30px;
+        top: 220px;
+        right: 270px;
+        
     }
     .logos{
         display: none;
@@ -907,7 +910,7 @@ p {
         flex-direction: column;
         background-color: #EBD96B;
         padding: 15px 100px;
-        gap: px;
+        gap: 15px;
         width: auto;
         align-items: center;
         justify-content: center;
@@ -917,7 +920,7 @@ p {
     }
     .mlogoimg {
         display: flex;
-        gap: 30px;
+        gap: 40px;
         
     }
     .mlogoimg img {
@@ -967,29 +970,6 @@ p {
         align-items: center;
     }
 
-    .heroimag img {
-        width: 380px;
-    }
-    .bottom img {
-        width: 30px;
-        top: 275px;
-        left: 15px;
-    }
-    .topr img {
-        width: 30px;
-        top: 30px;
-        right: 60px;
-    }
-    .top img {
-        width: 27px;
-        top: 20px;
-        right: 340px;
-    }
-    .bottomr img {
-        width: 35px;
-        top: 250px;
-        right: 30px;
-    }
 
     .arrivals {
         padding-left: 40px;
